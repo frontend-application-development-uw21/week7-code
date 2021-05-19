@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import firebase from 'firebase';
+import firebase from 'firebase/app';
 import db from '../firebase/db';
 
 export default class AddJournalEntry extends Component {
